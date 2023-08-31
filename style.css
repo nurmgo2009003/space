@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: history;
+    src: url(./SpacePowerDemoRegular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(74, 170, 138);
+    text-align: center;
+    font-family: 'history';
+}
+
+img {
+    width: 250px;
+    height: 100px;
+}
+
+.main{
+    padding: 120px;
+    background-image: url(./giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1{
+    font-size: 50px;
+
+
+}
+.btn{
+    padding: 15px 25px;
+    border: none;
+    background: linear-gradient(60deg , blue, black);
+    color: rgb(74, 170, 138);
+    font-size: 20px;
+    font-family:'history' ;
+    border-radius: 15px;
+}
+.btn:active{
+    padding: 15px 25px;
+    border: none;
+    background: linear-gradient(60deg , rgb(230, 0, 255), rgb(0, 13, 157));
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+span{
+    border-bottom: 9px solid white;
+    border-radius: 15px;
+}
+
+.terms{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 35px;
+
+}
